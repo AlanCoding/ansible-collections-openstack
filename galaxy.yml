@@ -1,0 +1,29 @@
+namespace: openstack
+name: cloud
+readme: README.md
+authors: Openstack
+description: Openstack Ansible modules
+license: GPL-3.0-or-later
+tags:
+  - cloud
+  - openstack
+dependencies: {}
+repository: https://opendev.org/openstack/ansible-collections-openstack.git
+documentation: https://docs.openstack.org/ansible-collections-openstack
+homepage: https://opendev.org
+issues: https://review.opendev.org/q/project:openstack/ansible-collections-openstack
+build_ignore:
+  - "*.tar.gz"
+  - build_artifact
+  - ci
+  - galaxy.yml.in
+  - setup.cfg
+  - test-requirements.txt
+  - tests
+  - tools
+  - tox.ini
+  - .gitignore
+  - .gitreview
+  - .zuul.yaml
+  - .pytest_cache
+  - importer_result.json
